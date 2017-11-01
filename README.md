@@ -2,7 +2,7 @@
 ImageAnnotation Tool makes tagging object easier, faster and more effective. Hope it can help you a lot. Email:thin.wu@163.com
 
 Windows:
-Exe:链接：http://pan.baidu.com/s/1kU8tWiF 密码：thgr
+exe:链接：http://pan.baidu.com/s/1kU8tWiF 密码：thgr
 
 GUI
 ![image](https://github.com/satchelwu/ImageAnnotation/blob/master/1.jpg)
