@@ -34,7 +34,10 @@ Some other skills:
 You can move and resize the current showing image by mouse left button and mouse wheel. The thumbnail image on the bottom left can be double clicked, it can help you locate the position fast. 
   
 References: 
-labelImg  https://github.com/tzutalin/labelImg 
+Opencv https://opencv.org/
+Qt https://www.qt.io/
+labelImg  https://github.com/tzutalin/labelImg 
+
   
 Thanks: 
 @燕山大学～硕士～Bless  First user of the tool, giving a lot of advice. Thanks very much. 
