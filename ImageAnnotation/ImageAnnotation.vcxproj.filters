@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{ebabeabe-963b-4cba-a5a6-ca59ba77b9af}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{bac5d257-1294-4983-b1ce-e84e45230259}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{415bf455-b879-4018-b796-7f5702f8181f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{bb2c79a6-e9e2-4a70-b6dc-bb5e3a2b5da1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_imageannotation.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImageCropper.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageCropper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageCropper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImageDisplayWidget.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageDisplayWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageDisplayWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImageProcessStepDetailWidget.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageProcessStepDetailWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageProcessStepDetailWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImageQuadrangleROIMarker.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageQuadrangleROIMarker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageQuadrangleROIMarker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImageThumbnailWidget.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageThumbnailWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageThumbnailWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageAnnotationWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageAnnotationWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NImageAnnotationWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NDropShadowWidget.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NDropShadowWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NDropShadowWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImagePathListWidget.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImagePathListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImagePathListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImageObjectMarkerWidget.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageObjectMarkerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageObjectMarkerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NImageDrawer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NImageDrawer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NImageDrawer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NAnnotationRectsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NAnnotationRectsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NAnnotationRectsWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NBaseWindow.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NBaseWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NBaseWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NSelectClassLabelWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NSelectClassLabelWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NSelectClassLabelWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NAbstractAnnotationSerializer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NAbstractAnnotationSerializer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NAbstractAnnotationSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NVocAnnationSerializer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NVocAnnationSerializer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NVocAnnationSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NExportLabeledObjectImagesWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NExportLabeledObjectImagesWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NExportLabeledObjectImagesWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NUsageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NUsageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NUsageWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NWindowTitleBar.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NWindowTitleBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NWindowTitleBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Components\NUtility.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="imageannotation.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageCropper.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageDisplayWidget.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageProcessStepDetailWidget.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageProcessStepDetailWidget.ui">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageQuadrangleROIMarker.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageQuadrangleROIMarker.ui">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageThumbnailWidget.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NImageAnnotationWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NImageAnnotationWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NDropShadowWidget.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImagePathListWidget.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageObjectMarkerWidget.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NImageDrawer.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NAnnotationRectsWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NBaseWindow.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NSelectClassLabelWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NAbstractAnnotationSerializer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NVocAnnationSerializer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NExportLabeledObjectImagesWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NUsageWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NWindowTitleBar.h">
+      <Filter>Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Components\NWindowTitleBar.ui">
+      <Filter>Components</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_NImageProcessStepDetailWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NImageQuadrangleROIMarker.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NImageAnnotationWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\NCommon.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NWindowTitleBar.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Components\NUtility.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindowTitleBar.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Main.css">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+    <Image Include="Resources\Images\application.ico" />
+  </ItemGroup>
+</Project>

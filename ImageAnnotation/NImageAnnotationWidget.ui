@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NImageAnnotationWidget</class>
+ <widget class="QWidget" name="NImageAnnotationWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1221</width>
+    <height>815</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>NImageAnnotationWidget</string>
+  </property>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

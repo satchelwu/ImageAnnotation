@@ -1,0 +1,38 @@
+QWidget#NWindowTitleBar
+{
+    background-color: qlineargradient(x1:0, y1:0.5, x2:1, y2:0.5,stop:0 rgb(228, 238, 249), stop:0.5 rgb(228, 238, 255), stop:1 rgb(228, 238, 249));
+    /*background-color:white;*/
+}
+
+QLabel#labelTitle{
+    font:bold, 30px arial;
+}
+
+QPushButton#pushButtonClose{
+	background-color:red;
+	image: url(":/ImageAnnotation/Resources/Images/titleclose.png");
+}
+
+QPushButton#pushButtonClose:hover
+{
+    border:2px solid green;
+}
+QPushButton#pushButtonClose:pressed{
+    margin:2px;
+}
+
+QPushButton#pushButtonMinimize{
+	background-color:black;
+	image: url(":/ImageAnnotation/Resources/Images/titlemini.png");
+}
+
+QPushButton#pushButtonMaxmize{
+    background-color:black;
+	image: url(":/ImageAnnotation/Resources/Images/titlemax.png");
+}
+
+
+QPushButton#pushButtonDropDownMenu{
+    background-color:black;
+	image: url(":/ImageAnnotation/Resources/Images/titlemenu.png");
+}
