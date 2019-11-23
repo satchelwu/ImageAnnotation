@@ -1,4 +1,4 @@
-# ImageAnnotation
+# ImageAnnotation (use Qt + Opencv, could be used on crossplatform)
 ImageAnnotation Tool makes tagging object easier, faster and more effective. Hope it can help you a lot. Email:thin.wu@163.com
 
 Windows:
